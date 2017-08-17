@@ -1,0 +1,19 @@
+:global(body) {
+  position: relative;
+
+
+}
+
+.cursor-pointer {
+  cursor: pointer
+}
+
+.centerify {
+  text-align: center;
+}
+
+.recharts-override {
+  .recharts-responsive-container {
+    display: inline-block;
+  }
+}
