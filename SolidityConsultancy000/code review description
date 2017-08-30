@@ -1,0 +1,48 @@
+These solidity code are used for our ico program. 
+
+The first is used in the test environment. the second will be used in the main network. 
+
+The requirement of the ICO is:
+It has 2 release date after the initial crowd sale
+It support 20% of bonus, for example, in the first 3 weeks, all buyer can get 20%.
+If a buy spent 50 ETH, he also can get another 20%. 
+
+
+Our ICO design 
+
+Features
+Token name: Demo.  (I will confirm the final name before we deploy on Ethereum)
+Token ticker symbol: DMO (I will confirm the final name before we deploy on Ethereum)
+Token type: Ethereum ERC20
+Token sale start: 08:00 London UK time (GMT + 1). (Will confirm the date after discuss with marketing team)
+Token sale duration: 2 month
+London UK time (GMT + 1)
+Total tokens issued:100 million 
+Total tokens available for sale: 35 million (35%)
+
+if a buyer spend 100 ETH per purchase, then get 20% bonus
+early bird (first 3 weeks) buyer will get 20% bonus. 
+
+Minimum purchase of all buyers is 10 ETH per purchase
+
+Price per token: 0.002 ether, only accept ETH
+
+Token Allocation (100%): for example:
+
+30 million (30%) will be sold to the public on ICO crowd sale
+12 million (17%) will be used as the bonus in the crowd sale 
+
+If the above 47 can’t be sold out, then the remain will be sold after the ico complete. No frozen.
+
+35 million (35%) will be used to for approved marketing and incentive purpose *
+23 million(23%) will be reserved for future use **
+
+*These tokens will be locked up for 6 months in a smart contract. (The time can be modified
+)
+** These tokens will be iced for 2 years if the sale meets its cap. ((The time can be modified
+)
+
+
+
+Could you a code review and testing to see if it has potential issues.
+
